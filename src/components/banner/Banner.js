@@ -11,7 +11,7 @@ const Banner = () => {
       }}
       className=" h-screen "
     >
-      <div className="bg-[rgba(0,0,0,0.37)]  h-full w-full flex flex-col justify-center p-14">
+      <div className="bg-[rgba(0,0,0,0.66)]  h-full w-full flex flex-col justify-center p-14">
         <h2 className="font-black md:text-6xl  text-4xl md:w-1/2 my-10 text-white">
           Technology & Visual Agency
         </h2>
