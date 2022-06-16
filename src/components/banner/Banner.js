@@ -9,13 +9,13 @@ const Banner = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className=" h-screen "
+      className="md:h-screen h-[85%]"
     >
       <div className="bg-[rgba(0,0,0,0.66)]  h-full w-full flex flex-col justify-center p-14">
         <h2 className="font-black md:text-6xl  text-4xl md:w-1/2 my-10 text-white">
           Technology & Visual Agency
         </h2>
-        <button className="bg-green-500 w-48 py-3 px-6 rounded-full text-white font-semibold hover:bg-transparent border-2 border-transparent duration-500 hover:text-green-500 hover:border-green-500">
+        <button className="bg-green-500 w-36  md:w-48 py-2 px-4 md:py-3 md:px-6 rounded-full text-white font-semibold hover:bg-transparent border-2 border-transparent duration-500 hover:text-green-500 hover:border-green-500">
           Learn more
         </button>
       </div>

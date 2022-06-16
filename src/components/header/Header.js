@@ -10,7 +10,7 @@ const Header = () => {
   });
   return (
     <>
-      <nav className="flex fixed w-full top-0 justify-between h-16 items-center px-4  border-b-2 border-green-500 duration-500">
+      <nav className="flex fixed w-full top-0 justify-between h-16 items-center px-4  border-b border-green-500 duration-500 z-50">
         <div className="font-extrabold text-4xl text-green-500">
           <MdApi />
         </div>
