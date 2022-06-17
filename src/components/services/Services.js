@@ -1,16 +1,10 @@
 import React from "react";
+import TitleHeader from "../../hooks/TitleHeader";
 
 const Services = () => {
   return (
-    <div className="bg-black text-white">
-      <div className="flex ">
-        <div className="bg-green-500 w-40 md:w-60 h-24 flex justify-center items-center">
-          <h2 className="font-semibold text-xl text-white uppercase">
-            Services
-          </h2>
-        </div>
-        <div className="w-0 h-0 border-b-green-500 border-b-[96px] border-r-transparent border-r-[96px] border-l-transparent border-l-[96px] rotate-180 -ml-24 -z-5"></div>
-      </div>
+    <div className="bg-black text-white" id="services">
+      <TitleHeader name="services"></TitleHeader>
       <div className="flex flex-col md:flex-row md:gap-8 gap-3 justify-center items-center md:py-20 py-5 w-[90%] mx-auto lg:w-[1080px]">
         <div className="p-5 ">
           <svg className="-z-50" height="150" width="200">

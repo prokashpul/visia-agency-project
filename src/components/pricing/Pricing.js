@@ -3,7 +3,7 @@ import TitleHeader from "../../hooks/TitleHeader";
 
 const Pricing = () => {
   return (
-    <div className="">
+    <div className="" id="pricing">
       <TitleHeader name="Pricing"></TitleHeader>
     </div>
   );

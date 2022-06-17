@@ -3,7 +3,7 @@ import TitleHeader from "../../hooks/TitleHeader";
 
 const About = () => {
   return (
-    <div className="mb-24">
+    <div className="mb-24 overflow-hidden " id="about">
       <TitleHeader name="About"></TitleHeader>
       <div className="w-[90%] mx-auto lg:w-[1080px] flex flex-col md:flex-row justify-around items-center gap-5">
         <div>

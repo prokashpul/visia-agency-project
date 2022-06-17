@@ -3,7 +3,7 @@ import TitleHeader from "../../hooks/TitleHeader";
 
 const Milestones = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black" id="milestones">
       <TitleHeader name="Milestones"></TitleHeader>
     </div>
   );

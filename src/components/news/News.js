@@ -4,7 +4,7 @@ import TitleHeader from "../../hooks/TitleHeader";
 
 const News = () => {
   return (
-    <section className="">
+    <section className="" id="news">
       <TitleHeader name="news"></TitleHeader>
       <div className="grid md:grid-flow-col gap-10 w-[90%] mx-auto lg:w-[1080px] pt-20 pb-10">
         <article className="group">
