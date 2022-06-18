@@ -41,7 +41,10 @@ const Header = () => {
             open ? "right-0" : "-right-96"
           } `}
         >
-          <li className="duration-500 flex items-center py-3 md:py-auto">
+          <li
+            onClick={() => setOpen(!open)}
+            className="duration-500 flex items-center py-3 md:py-auto"
+          >
             <Link
               activeClass="text-[#fff]"
               className="hover:text-white text-green-500  cursor-pointer uppercase"
@@ -56,6 +59,7 @@ const Header = () => {
           </li>
           {navBar?.map((nav) => (
             <li
+              onClick={() => setOpen(!open)}
               key={nav.id}
               className="duration-500 flex items-center py-3 md:py-auto"
             >
