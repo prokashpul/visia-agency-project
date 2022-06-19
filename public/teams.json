@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Marty Stone",
+    "image": "https://cdn.pixabay.com/photo/2016/03/26/20/35/young-man-1281282_1280.jpg",
+    "job": "CEO",
+    "details": "Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.",
+    "fb": "https://facebook",
+    "tw": "https://twitter.com",
+    "git": "https://github.com",
+    "linkedIn": "https://linkedin.com",
+    "web": "https://prokash.web.app",
+    "_id": 1
+  },
+  {
+    "name": "John Williams",
+    "image": "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg",
+    "job": "DESIGNER",
+    "details": "Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.",
+    "fb": "https://facebook",
+    "tw": "https://twitter.com",
+    "git": "https://github.com",
+    "linkedIn": "https://linkedin.com",
+    "web": "https://prokash.web.app",
+    "_id": 2
+  },
+  {
+    "name": "Vanessa Doe",
+    "image": "https://cdn.pixabay.com/photo/2017/07/31/21/01/laptop-2561018_1280.jpg",
+    "job": "DEVELOPER",
+    "details": "Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.",
+    "fb": "https://facebook",
+    "tw": "https://twitter.com",
+    "git": "https://github.com",
+    "linkedIn": "https://linkedin.com",
+    "web": "https://prokash.web.app",
+    "_id": 3
+  }
+]

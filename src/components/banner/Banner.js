@@ -6,7 +6,8 @@ const Banner = () => {
     <div
       id="home"
       style={{
-        backgroundImage: "url(https://i.ibb.co/syYwRh0/visha-agency.jpg)",
+        backgroundImage:
+          "url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg)",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -15,7 +16,7 @@ const Banner = () => {
     >
       <div className="bg-[rgba(0,0,0,0.66)]  h-full w-full flex flex-col justify-center ">
         <div className=" w-[90%] mx-auto lg:w-[1080px]">
-          <h2 className="font-black md:text-6xl  text-4xl md:w-1/2 my-10 text-white">
+          <h2 className="font-black md:text-7xl  text-4xl md:w-[60%] my-10 text-white leading-snug">
             Technology & Visual Agency
           </h2>
           <Button title="Learn More"></Button>

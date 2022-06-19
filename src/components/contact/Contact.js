@@ -1,15 +1,12 @@
 import React from "react";
+import TitleHeader from "../../hooks/TitleHeader";
 
 const Contact = () => {
   return (
     <div className="" id="contact">
-      <div className="flex ">
-        <div className="bg-green-500 w-40 md:w-60 h-24 flex justify-center items-center">
-          <h2 className="font-semibold text-xl text-white uppercase">
-            Contact
-          </h2>
-        </div>
-        <div className="w-0 h-0 border-b-green-500 border-b-[96px] border-r-transparent border-r-[96px] border-l-transparent border-l-[96px] rotate-180 -ml-24 -z-5"></div>
+      <TitleHeader name="Contact"></TitleHeader>
+      <div className=" h-[500px] flex justify-center items-center">
+        <h2 className="text-5xl font-extrabold">Coming Soon ... </h2>
       </div>
     </div>
   );

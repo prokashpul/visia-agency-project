@@ -3,16 +3,16 @@ import { MdMenu, MdClose, MdApi } from "react-icons/md";
 import { Link } from "react-scroll";
 
 const navBar = [
-  { link: "services", name: "services", id: 2 },
+  { link: "services", name: "services", id: 1 },
   { link: "about", name: "about", id: 2 },
-  { link: "testimonial", name: "testimonial", id: 2 },
-  { link: "news", name: "news", id: 2 },
-  { link: "portfolio", name: "portfolio", id: 3 },
-  { link: "pricing", name: "pricing", id: 3 },
-  { link: "teams", name: "teams", id: 3 },
-  { link: "skills", name: "skills", id: 4 },
-  { link: "milestones", name: "milestones", id: 4 },
-  { link: "contact", name: "Contact", id: 5 },
+  { link: "testimonial", name: "testimonial", id: 3 },
+  { link: "news", name: "news", id: 4 },
+  { link: "portfolio", name: "portfolio", id: 5 },
+  { link: "pricing", name: "pricing", id: 6 },
+  { link: "teams", name: "teams", id: 7 },
+  { link: "skills", name: "skills", id: 8 },
+  { link: "milestones", name: "milestones", id: 9 },
+  { link: "contact", name: "Contact", id: 10 },
 ];
 const Header = () => {
   const [open, setOpen] = useState(false);
