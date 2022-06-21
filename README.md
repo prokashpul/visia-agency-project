@@ -5,3 +5,5 @@
 > - react-router-dom@6
 > - react-scroll
 > - tailwindcss
+> - react icon
+> - firebase

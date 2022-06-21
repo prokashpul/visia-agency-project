@@ -10,7 +10,7 @@ const News = () => {
         <article className="group">
           <figure className="w-full overflow-hidden">
             <img
-              className="transform transition duration-500 group-hover:scale-110  cursor-pointer  h-[400px] object-cover"
+              className="transform transition duration-500 group-hover:scale-110  cursor-pointer  md:h-[400px]  h-[350px] w-full object-cover"
               src="https://demo.cocobasic.com/seppo-html/images/blog_img_01.jpg"
               alt=""
             />
@@ -29,7 +29,7 @@ const News = () => {
         <article className="group">
           <figure className="w-full overflow-hidden">
             <img
-              className="transform transition duration-500 group-hover:scale-110  cursor-pointer  h-[400px] object-cover"
+              className="transform transition duration-500 group-hover:scale-110  cursor-pointer  md:h-[400px]  h-[350px] w-full object-cover"
               src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
               alt=""
             />
@@ -49,8 +49,8 @@ const News = () => {
         <article className="group">
           <figure className="w-full overflow-hidden">
             <img
-              className="transform transition duration-500 group-hover:scale-110  cursor-pointer h-[400px] object-cover"
-              src="https://cdn.pixabay.com/photo/2016/11/22/19/11/brick-wall-1850095_1280.jpg"
+              className="transform transition duration-500 group-hover:scale-110  cursor-pointer md:h-[400px]  h-[350px] w-full object-cover"
+              src="https://cdn.pixabay.com/photo/2015/09/04/23/28/wordpress-923188_960_720.jpg"
               alt=""
             />
           </figure>

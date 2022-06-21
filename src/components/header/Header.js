@@ -43,7 +43,7 @@ const Header = () => {
         >
           <li
             onClick={() => setOpen(!open)}
-            className="duration-500 flex items-center py-3 md:py-auto"
+            className="duration-500 flex items-center py-3 md:py-auto w-full md:w-auto"
           >
             <Link
               activeClass="text-[#fff]"
