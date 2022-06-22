@@ -25,8 +25,10 @@ const Header = () => {
   return (
     <>
       <nav className="flex fixed w-full top-0 justify-between h-16 items-center px-4 border-b-2  md:border-0 border-green-500 duration-500 z-50 max-w-screen-2xl">
-        <div className="font-extrabold text-4xl text-green-500">
-          <MdApi />
+        <div className="font-extrabold text-4xl text-green-500 cursor-pointer">
+          <Link to="home" spy={true} smooth={true} offset={-62} duration={1000}>
+            <MdApi />
+          </Link>
         </div>
         <div
           onClick={() => setOpen(!open)}
@@ -49,8 +51,8 @@ const Header = () => {
               to="home"
               spy={true}
               smooth={true}
-              offset={-60}
-              duration={2000}
+              offset={-62}
+              duration={1000}
             >
               Home
             </Link>
@@ -67,8 +69,8 @@ const Header = () => {
                 to={nav.link}
                 spy={true}
                 smooth={true}
-                offset={-60}
-                duration={2000}
+                offset={-62}
+                duration={1000}
               >
                 {nav.name}
               </Link>
