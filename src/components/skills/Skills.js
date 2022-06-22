@@ -17,7 +17,7 @@ const Skills = () => {
       <TitleHeader name="Skills"></TitleHeader>
 
       <div className="grid md:grid-cols-2 gap-5 w-[90%] mx-auto lg:w-[1080px] my-10 ">
-        <div className="flex flex-col gap-5 p-5">
+        <div className="flex flex-col gap-5 p-5" data-aos="fade-right">
           <small>OUR NUMBERS</small>
           <h2 className="text-3xl md:text-5xl font-bold">Check our Skills</h2>
           <p className="font-semibold text-xl text-gray-500">
@@ -29,7 +29,7 @@ const Skills = () => {
             <Button title="Learn More"></Button>
           </div>
         </div>
-        <div className=" ">
+        <div className=" " data-aos="fade-left">
           {skills?.map((skill) => (
             <>
               <div>
@@ -44,7 +44,7 @@ const Skills = () => {
                       class="w-full bg-gray-200 rounded-full mb-3 "
                     >
                       <div
-                        class="bg-green-500 text-xs h-5 font-medium text-blue-100 text-center p-0.5 leading-none rounded-l-full"
+                        class="bg-green-500 text-xs h-5 duration-700  font-medium text-blue-100 text-center p-0.5 leading-none rounded-l-full"
                         style={{ width: `${skill.width}%` }}
                       ></div>
                     </div>

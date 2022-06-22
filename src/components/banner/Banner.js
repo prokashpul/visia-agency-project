@@ -15,7 +15,7 @@ const Banner = () => {
       className="md:h-screen h-[500px] overflow-hidden "
     >
       <div className="bg-[rgba(0,0,0,0.66)]  h-full w-full flex flex-col justify-center ">
-        <div className=" w-[90%] mx-auto lg:w-[1080px]">
+        <div className=" w-[90%] mx-auto lg:w-[1080px]" data-aos="fade-right">
           <div className="font-extrabold md:text-7xl flex flex-col md:gap-5  text-5xl md:w-[60%] md:my-5 text-white leading-snug">
             <div> Technology & </div> Visual Agency
           </div>

@@ -4,7 +4,7 @@ import TitleHeader from "../../hooks/TitleHeader";
 const Portfolio = () => {
   return (
     <div className="bg-black relative" id="portfolio">
-      <div className="absolute top-0 left-0">
+      <div className="absolute top-0 left-0 z-30">
         <TitleHeader name="Portfolio"></TitleHeader>
       </div>
 
@@ -19,6 +19,7 @@ const Portfolio = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
+            data-aos="zoom-in"
           >
             <div className="h-[350px] md:h-[700px] duration-700 hidden group-hover:flex justify-center flex-col items-center text-white group-hover:bg-[#000000b0]">
               <div className=" text-center uppercase">
@@ -38,6 +39,7 @@ const Portfolio = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
+            data-aos="zoom-in"
           >
             <div className="h-[350px] md:h-[700px] duration-700 hidden group-hover:flex justify-center flex-col items-center text-white group-hover:bg-[#000000b0]">
               <div className=" text-center uppercase">
@@ -57,6 +59,7 @@ const Portfolio = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
+            data-aos="zoom-in"
           >
             <div className="h-[350px] duration-700 hidden group-hover:flex justify-center flex-col items-center text-white group-hover:bg-[#000000b0]">
               <div className=" text-center uppercase">
@@ -74,6 +77,7 @@ const Portfolio = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
+            data-aos="zoom-in"
           >
             <div className="h-[350px] duration-700 hidden group-hover:flex justify-center flex-col items-center text-white group-hover:bg-[#000000b0]">
               <div className=" text-center uppercase">

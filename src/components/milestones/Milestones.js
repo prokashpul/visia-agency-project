@@ -6,7 +6,10 @@ const Milestones = () => {
     <div className="bg-black" id="milestones">
       <TitleHeader name="Milestones"></TitleHeader>
       <div className="  grid md:grid-cols-2  gap-10 justify-center items-center md:py-20 py-10 w-[90%] mx-auto lg:w-[1080px]">
-        <div className="flex justify-start md:flex-row flex-col items-start gap-0 md:gap-5 text-white">
+        <div
+          className="flex justify-start md:flex-row flex-col items-start gap-0 md:gap-5 text-white"
+          data-aos="zoom-in"
+        >
           <svg className=" bg-black" height="80" width="200">
             <text
               fill="none"
@@ -30,7 +33,10 @@ const Milestones = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-start md:flex-row flex-col items-start gap-0 md:gap-5 text-white">
+        <div
+          className="flex justify-start md:flex-row flex-col items-start gap-0 md:gap-5 text-white"
+          data-aos="zoom-in"
+        >
           <svg className=" bg-black" height="80" width="200">
             <text
               fill="none"
@@ -54,7 +60,10 @@ const Milestones = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-start md:flex-row flex-col items-start gap-0 md:gap-5 text-white">
+        <div
+          className="flex justify-start md:flex-row flex-col items-start gap-0 md:gap-5 text-white"
+          data-aos="zoom-in"
+        >
           <svg className=" bg-black" height="80" width="200">
             <text
               fill="none"
@@ -76,7 +85,10 @@ const Milestones = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-start md:flex-row flex-col items-start gap-0 md:gap-5 text-white">
+        <div
+          className="flex justify-start md:flex-row flex-col items-start gap-0 md:gap-5 text-white"
+          data-aos="zoom-in"
+        >
           <svg className=" bg-black" height="80" width="200">
             <text
               fill="none"

@@ -6,7 +6,7 @@ const About = () => {
     <div className="mb-24 overflow-hidden " id="about">
       <TitleHeader name="About"></TitleHeader>
       <div className="w-[90%] mx-auto lg:w-[1080px] flex flex-col md:flex-row justify-around items-center gap-5">
-        <div>
+        <div data-aos="fade-right">
           <small className="uppercase tracking-widest "> WHO WE ARE</small>
           <h2 className="font-bold text-6xl my-3">
             Live up to your creative potential.
@@ -18,7 +18,7 @@ const About = () => {
           </p>
           <Button title="Learn More"></Button>
         </div>
-        <div className="w-full sticky top-0">
+        <div className="w-full sticky top-0" data-aos="fade-left">
           <img
             className=""
             src="https://demo.cocobasic.com/seppo-html/images/about_01.jpg"

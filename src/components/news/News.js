@@ -7,7 +7,7 @@ const News = () => {
     <section className="" id="news">
       <TitleHeader name="news"></TitleHeader>
       <div className="grid md:grid-flow-col gap-10 w-[90%] mx-auto lg:w-[1080px] pt-20 pb-10">
-        <article className="group">
+        <article data-aos="zoom-in" className="group">
           <figure className="w-full overflow-hidden">
             <img
               className="transform transition duration-500 group-hover:scale-110  cursor-pointer  md:h-[400px]  h-[350px] w-full object-cover"
@@ -26,7 +26,7 @@ const News = () => {
             <Button title="Read More"></Button>
           </div>
         </article>
-        <article className="group">
+        <article data-aos="zoom-in" className="group">
           <figure className="w-full overflow-hidden">
             <img
               className="transform transition duration-500 group-hover:scale-110  cursor-pointer  md:h-[400px]  h-[350px] w-full object-cover"
@@ -46,7 +46,7 @@ const News = () => {
           </div>
         </article>
 
-        <article className="group">
+        <article data-aos="zoom-in" className="group">
           <figure className="w-full overflow-hidden">
             <img
               className="transform transition duration-500 group-hover:scale-110  cursor-pointer md:h-[400px]  h-[350px] w-full object-cover"

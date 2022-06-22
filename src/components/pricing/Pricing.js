@@ -8,7 +8,10 @@ const Pricing = () => {
     <div className="" id="pricing">
       <TitleHeader name="Pricing"></TitleHeader>
       <div className="w-[90%] mx-auto lg:w-[1080px] flex md:flex-row flex-col gap-10 justify-center items-center py-20">
-        <div className="pl-10 md:px-10 py-5 border-2 w-full border-gray-700">
+        <div
+          data-aos="zoom-in"
+          className="pl-10 md:px-10 py-5 border-2 w-full border-gray-700"
+        >
           <p>BASIC</p>
           <h2 className="font-bold text-6xl text-green-500">$25</h2>
           <small className="text-gray-400">PER MONTH</small>
@@ -39,7 +42,10 @@ const Pricing = () => {
             <Button title="CHOOSE PLAN"></Button>
           </div>
         </div>
-        <div className="pl-10 md:px-10 py-5 border-2 w-full border-gray-700">
+        <div
+          data-aos="zoom-in"
+          className="pl-10 md:px-10 py-5 border-2 w-full border-gray-700"
+        >
           <p>ADVANCED</p>
           <h2 className="font-bold text-6xl text-green-500">$50</h2>
           <small className="text-gray-400">PER MONTH</small>
@@ -70,7 +76,10 @@ const Pricing = () => {
             <Button title="CHOOSE PLAN"></Button>
           </div>
         </div>
-        <div className="pl-10 md:px-10 py-5 border-2 w-full border-gray-700">
+        <div
+          data-aos="zoom-in"
+          className="pl-10 md:px-10 py-5 border-2 w-full border-gray-700"
+        >
           <p>EXPERT</p>
           <h2 className="font-bold text-6xl text-green-500">$100</h2>
           <small className="text-gray-400">PER MONTH</small>
