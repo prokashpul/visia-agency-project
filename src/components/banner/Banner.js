@@ -12,13 +12,13 @@ const Banner = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="md:h-screen h-[500px] overflow-hidden "
+      className="md:h-screen h-[450px] overflow-hidden "
     >
       <div className="bg-[rgba(0,0,0,0.66)]  h-full w-full flex flex-col justify-center ">
         <div className=" w-[90%] mx-auto lg:w-[1080px]">
-          <h2 className="font-black md:text-7xl  text-4xl md:w-[60%] my-10 text-white leading-snug">
-            Technology & Visual Agency
-          </h2>
+          <div className="font-extrabold md:text-7xl flex flex-col md:gap-5  text-[50px] md:w-[60%] md:my-5 text-white leading-snug">
+            <div> Technology & </div> Visual Agency
+          </div>
           <Button title="Learn More"></Button>
         </div>
       </div>

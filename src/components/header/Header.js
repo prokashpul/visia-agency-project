@@ -37,40 +37,38 @@ const Header = () => {
 
         <ul
           onClick={() => setOpen(!open)}
-          className={`flex  flex-col md:flex-row items-start md:items-center px-5 md:px-0  md:gap-5 absolute md:static bg-black overflow-y-scroll md:overflow-hidden md:bg-transparent top-16 md:top-auto w-3/4 md:w-auto duration-700  md:right-auto h-screen md:h-auto md:py-0 ${
+          className={`flex  flex-col md:flex-row items-start md:items-center px-5 md:px-0  md:gap-5 absolute md:static bg-black overflow-y-scroll md:overflow-hidden md:bg-transparent top-16  md:top-auto w-3/4 md:w-auto duration-700  md:right-auto h-screen md:h-auto md:py-0 ${
             open ? "right-0" : "-right-96"
           } `}
         >
-          <li
-            onClick={() => setOpen(!open)}
-            className="duration-500 flex items-center py-3 md:py-auto w-full md:w-auto"
-          >
+          <li className="duration-500 flex items-center py-3 md:py-auto w-full md:w-auto">
             <Link
+              onClick={() => setOpen(!open)}
               activeClass="text-[#fff]"
               className="hover:text-white text-green-500  cursor-pointer uppercase"
               to="home"
               spy={true}
               smooth={true}
               offset={-60}
-              duration={1000}
+              duration={2000}
             >
               Home
             </Link>
           </li>
           {navBar?.map((nav) => (
             <li
-              onClick={() => setOpen(!open)}
               key={nav.id}
               className="duration-500 flex items-center py-3 md:py-auto"
             >
               <Link
+                onClick={() => setOpen(!open)}
                 activeClass="text-[#fff]"
                 className="hover:text-white text-green-500 cursor-pointer uppercase overflow-hidden"
                 to={nav.link}
                 spy={true}
                 smooth={true}
                 offset={-60}
-                duration={1000}
+                duration={2000}
               >
                 {nav.name}
               </Link>
