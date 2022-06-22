@@ -8,3 +8,4 @@
 > - react icon
 > - firebase
 > - aos animation
+> - react-hook-form

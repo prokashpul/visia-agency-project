@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../hooks/Button";
 import TitleHeader from "../../hooks/TitleHeader";
+import SkillBar from "./SkillBar";
 
 const skills = [
   { width: "85", name: "Web design", id: 1 },
@@ -31,27 +32,7 @@ const Skills = () => {
         </div>
         <div className=" " data-aos="fade-left">
           {skills?.map((skill) => (
-            <>
-              <div>
-                <div className="flex items-center gap-5">
-                  <div className="text-4xl mt-4 font-bold text-gray-400">
-                    {skill.width}%
-                  </div>
-                  <div className="w-full">
-                    <div className="font-bold text-2xl mb-3">{skill.name}</div>
-                    <div
-                      key={skill.id}
-                      class="w-full bg-gray-200 rounded-full mb-3 "
-                    >
-                      <div
-                        class="bg-green-500 text-xs h-5 duration-700  font-medium text-blue-100 text-center p-0.5 leading-none rounded-l-full"
-                        style={{ width: `${skill.width}%` }}
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </>
+            <SkillBar skill={skill} key={skill.id}></SkillBar>
           ))}
         </div>
       </div>

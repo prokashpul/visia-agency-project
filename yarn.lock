@@ -3720,6 +3720,16 @@ electron-to-chromium@^1.4.147:
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.156.tgz#fc398e1bfbe586135351ebfaf198473a82923af5"
   integrity sha512-/Wj5NC7E0wHaMCdqxWz9B0lv7CcycDTiHyXCtbbu3pXM9TV2AOp8BtMqkVuqvJNdEvltBG6LxT2Q+BxY4LUCIA==
 
+emailjs-com@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-3.2.0.tgz#a53cb22f1bc433c701c84c53d8b56eefd5ce7111"
+  integrity sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==
+
+emailjs@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/emailjs/-/emailjs-4.0.0.tgz#e439dfa4136c6ef2a7d9f00d1a1f595b9cc16f87"
+  integrity sha512-t6LqDjGZnIkM+1ghsgazsaZbXnK7Yt+0Qjx6aCK3EGosenTC3w3aoO5wkWuDiBmdl2z9H/zCnTbKJPjTJripkg==
+
 emittery@^0.10.2:
   version "0.10.2"
   resolved "https://registry.npmjs.org/emittery/-/emittery-0.10.2.tgz#902eec8aedb8c41938c46e9385e9db7e03182933"
@@ -7212,6 +7222,11 @@ react-error-overlay@^6.0.11:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
 
+react-hook-form@^7.32.2:
+  version "7.32.2"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.32.2.tgz#58ec2ab0239ce97969baa2faa03ced13fae913ac"
+  integrity sha512-F1A6n762xaRhvtQH5SkQQhMr19cCkHZYesTcKJJeNmrphiZp/cYFTIzC05FnQry0SspM54oPJ9tXFXlzya8VNQ==
+
 react-icons@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/react-icons/-/react-icons-4.4.0.tgz#a13a8a20c254854e1ec9aecef28a95cdf24ef703"
@@ -8122,6 +8137,11 @@ svgo@^2.7.0:
     csso "^4.2.0"
     picocolors "^1.0.0"
     stable "^0.1.8"
+
+sweetalert2@^11.4.18:
+  version "11.4.18"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.18.tgz#fd8f57adacffad472ff0e28d6fc029ad521d14b2"
+  integrity sha512-BZPTQI54NYdjIVe2tmsS5JVU7E623P3Sv4ce3BO8V6PdeIdGPGmQm43ojr1cnpGJ1xYhbdwsHIH+t5tICvZ6ZA==
 
 symbol-tree@^3.2.4:
   version "3.2.4"
