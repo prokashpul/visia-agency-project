@@ -9,3 +9,5 @@
 > - firebase
 > - aos animation
 > - react-hook-form
+> - google-map-react
+> - emailjs

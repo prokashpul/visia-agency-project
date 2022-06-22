@@ -42,6 +42,7 @@ const Contact = () => {
         }
       );
   };
+
   return (
     <div className="" id="contact">
       <TitleHeader name="Contact"></TitleHeader>
