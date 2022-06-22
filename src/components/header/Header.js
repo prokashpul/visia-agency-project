@@ -24,7 +24,7 @@ const Header = () => {
   });
   return (
     <>
-      <nav className="flex fixed w-full top-0 justify-between h-16 items-center px-4 border-b-2  md:border-0 border-green-500 duration-500 z-50 max-w-screen-2xl">
+      <nav className="flex fixed w-full top-0 justify-between h-16 items-center px-4 border-b-2  lg:border-0 border-green-500 duration-500 z-50 max-w-screen-2xl">
         <div className="font-extrabold text-4xl text-green-500 cursor-pointer">
           <Link to="home" spy={true} smooth={true} offset={-62} duration={1000}>
             <MdApi />
@@ -32,18 +32,18 @@ const Header = () => {
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="block font-bold duration-500  text-4xl md:hidden cursor-pointer text-green-500"
+          className="block font-bold duration-500  text-4xl lg:hidden cursor-pointer text-green-500"
         >
           {!open ? <MdMenu /> : <MdClose />}
         </div>
 
         <ul
           onClick={() => setOpen(!open)}
-          className={`flex  flex-col md:flex-row items-start md:items-center px-5 md:px-0  md:gap-5 absolute md:static bg-black overflow-y-scroll md:overflow-hidden md:bg-transparent top-16  md:top-auto w-3/4 md:w-auto duration-700  md:right-auto h-screen md:h-auto md:py-0 ${
-            open ? "right-0" : "-right-96"
+          className={`flex  flex-col lg:flex-row items-start lg:items-center px-5 lg:px-0  lg:gap-5 absolute lg:static bg-black overflow-y-scroll lg:overflow-hidden lg:bg-transparent top-16  lg:top-auto w-3/4 lg:w-auto duration-700  lg:right-auto h-screen lg:h-auto lg:py-0 ${
+            open ? "right-0" : "-right-[100%]"
           } `}
         >
-          <li className="duration-500 flex items-center py-3 md:py-auto w-full md:w-auto">
+          <li className="duration-500 flex items-center py-3 lg:py-auto w-full lg:w-auto">
             <Link
               onClick={() => setOpen(!open)}
               activeClass="text-[#fff]"
@@ -60,7 +60,7 @@ const Header = () => {
           {navBar?.map((nav) => (
             <li
               key={nav.id}
-              className="duration-500 flex items-center py-3 md:py-auto"
+              className="duration-500 flex items-center py-3 lg:py-auto"
             >
               <Link
                 onClick={() => setOpen(!open)}

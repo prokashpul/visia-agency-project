@@ -16,7 +16,7 @@ const Team = () => {
   return (
     <div className="bg-black" id="teams">
       <TitleHeader name="Teams"></TitleHeader>
-      <div className="w-full md:w-[90%] mx-auto lg:w-[1080px] py-10">
+      <div className="w-full lg:w-[90%] mx-auto lg:w-[1080px] py-10">
         {teams?.map((team) => (
           <TeamInfo key={team._id} team={team}></TeamInfo>
         ))}

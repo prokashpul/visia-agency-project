@@ -6,11 +6,11 @@ const News = () => {
   return (
     <section className="" id="news">
       <TitleHeader name="news"></TitleHeader>
-      <div className="grid md:grid-flow-col gap-10 w-[90%] mx-auto lg:w-[1080px] pt-20 pb-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 w-[90%] mx-auto lg:w-[1080px] pt-20 pb-10">
         <article data-aos="zoom-in" className="group">
           <figure className="w-full overflow-hidden">
             <img
-              className="transform transition duration-500 group-hover:scale-110  cursor-pointer  md:h-[400px]  h-[350px] w-full object-cover"
+              className="transform transition duration-500 group-hover:scale-110  cursor-pointer  lg:h-[400px]  h-[350px] w-full object-cover"
               src="https://demo.cocobasic.com/seppo-html/images/blog_img_01.jpg"
               alt=""
             />
@@ -29,7 +29,7 @@ const News = () => {
         <article data-aos="zoom-in" className="group">
           <figure className="w-full overflow-hidden">
             <img
-              className="transform transition duration-500 group-hover:scale-110  cursor-pointer  md:h-[400px]  h-[350px] w-full object-cover"
+              className="transform transition duration-500 group-hover:scale-110  cursor-pointer  lg:h-[400px]  h-[350px] w-full object-cover"
               src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
               alt=""
             />
@@ -49,7 +49,7 @@ const News = () => {
         <article data-aos="zoom-in" className="group">
           <figure className="w-full overflow-hidden">
             <img
-              className="transform transition duration-500 group-hover:scale-110  cursor-pointer md:h-[400px]  h-[350px] w-full object-cover"
+              className="transform transition duration-500 group-hover:scale-110  cursor-pointer lg:h-[400px]  h-[350px] w-full object-cover"
               src="https://cdn.pixabay.com/photo/2015/09/04/23/28/wordpress-923188_960_720.jpg"
               alt=""
             />
@@ -66,7 +66,7 @@ const News = () => {
           </div>
         </article>
       </div>
-      <div className="relative flex justify-center mb-10 md:mb-20">
+      <div className="relative flex justify-center mb-10 lg:mb-20">
         <button className=" hover:text-green-500  hover:text-xl h-10 duration-500 w-32 hover:w-40">
           More news
         </button>

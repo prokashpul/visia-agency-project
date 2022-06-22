@@ -46,17 +46,17 @@ const Contact = () => {
   return (
     <div className="" id="contact">
       <TitleHeader name="Contact"></TitleHeader>
-      <div className="grid md:grid-cols-2 gap-5 w-[90%] mx-auto lg:w-[1080px] my-10 ">
+      <div className="grid lg:grid-cols-2 gap-5 w-[90%] mx-auto lg:w-[1080px] my-10 ">
         <div className="flex flex-col gap-5 p-5" data-aos="fade-right">
           <small>CONTACT US</small>
-          <h2 className="text-3xl md:text-5xl font-bold">Lets start Working</h2>
+          <h2 className="text-3xl lg:text-5xl font-bold">Lets start Working</h2>
           <p className="font-semibold text-xl text-gray-500">
             Because they are hard, because that goal will serve to organize and
             measure the best of our energies and skills, because that challenge
             is one that we are willing to accept one we are.
           </p>
           <div className="4" data-aos="fade-up">
-            <ul className="flex justify-start items-center gap-2  h-20 w-full md:w-72 ">
+            <ul className="flex justify-start items-center gap-2  h-20 w-full lg:w-72 ">
               <li className="hover:text-green-500 text-black duration-500 font-bold text-3xl">
                 <a href="/">
                   <RiFacebookFill />
@@ -136,7 +136,7 @@ const Contact = () => {
                 <input
                   type="submit"
                   value="Send"
-                  className="bg-green-500 w-full py-2 px-4 md:py-2 md:px-6 rounded-full text-white font-semibold hover:bg-transparent border-2 border-transparent duration-500 hover:text-green-500 hover:border-green-500  my-5 uppercase cursor-pointer"
+                  className="bg-green-500 w-full py-2 px-4 lg:py-2 lg:px-6 rounded-full text-white font-semibold hover:bg-transparent border-2 border-transparent duration-500 hover:text-green-500 hover:border-green-500  my-5 uppercase cursor-pointer"
                 />
               </form>
             </div>

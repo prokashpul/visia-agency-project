@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="mb-24 overflow-hidden " id="about">
       <TitleHeader name="About"></TitleHeader>
-      <div className="w-[90%] mx-auto lg:w-[1080px] flex flex-col md:flex-row justify-around items-center pt-10 md:pt-0 gap-5">
+      <div className="w-[90%] mx-auto lg:w-[1080px] flex flex-col md:flex-row justify-around items-center pt-10 lg:pt-0 gap-5">
         <div data-aos="fade-right">
           <small className="uppercase tracking-widest "> WHO WE ARE</small>
           <h2 className="font-bold text-6xl my-3">

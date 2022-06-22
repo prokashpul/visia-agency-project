@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className="bg-black text-white" id="services">
       <TitleHeader name="services"></TitleHeader>
-      <div className="flex flex-col md:flex-row md:gap-8 gap-3 justify-center items-center md:py-20 py-5 w-[90%] mx-auto lg:w-[1080px]">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-3 justify-center items-center lg:py-20 py-5 w-[90%] mx-auto lg:w-[1080px]">
         <div className="p-5" data-aos="zoom-in">
           <svg className="-z-50" height="150" width="200">
             <text

@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="bg-black flex flex-col justify-center items-center text-white py-10">
       <div>
-        <ul className="flex justify-center items-center gap-2  h-20 w-full md:w-72 ">
+        <ul className="flex justify-center items-center gap-2  h-20 w-full lg:w-72 ">
           <li
             className="hover:text-gray-200
   text-green-500
