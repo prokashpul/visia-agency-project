@@ -24,7 +24,7 @@ const Header = () => {
   });
   return (
     <>
-      <nav className="flex fixed w-full top-0 justify-between h-16 items-center px-4 border-b-2  md:border-0 border-green-500 duration-500 z-50">
+      <nav className="flex fixed w-full top-0 justify-between h-16 items-center px-4 border-b-2  md:border-0 border-green-500 duration-500 z-50 max-w-screen-2xl">
         <div className="font-extrabold text-4xl text-green-500">
           <MdApi />
         </div>
@@ -45,7 +45,7 @@ const Header = () => {
             <Link
               onClick={() => setOpen(!open)}
               activeClass="text-[#fff]"
-              className="hover:text-white text-green-500  cursor-pointer uppercase"
+              className="hover:text-white text-green-500 cursor-pointer uppercase"
               to="home"
               spy={true}
               smooth={true}

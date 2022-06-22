@@ -6,14 +6,14 @@ import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <>
+    <div className="max-w-screen-2xl mx-auto shadow-xl">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 
