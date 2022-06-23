@@ -12,7 +12,7 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <div className="max-w-screen-2xl mx-auto shadow-xl">
+    <div className="max-w-screen-2xl mx-auto shadow-xl overflow-y-hidden">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
