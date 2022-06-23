@@ -47,7 +47,7 @@ const Header = () => {
             <Link
               onClick={() => setOpen(!open)}
               activeClass="text-[#fff] border-b-2 border-green-500 bg-gray-900"
-              className="hover:text-white hover:bg-slate-900 px-2 flex items-center hover:border-b-2 border-green-500 text-green-500 cursor-pointer uppercase lg:h-16 w-screen md:w-auto"
+              className="hover:text-white hover:bg-slate-900 px-2 flex items-center hover:border-b-2 border-green-500 text-green-500 cursor-pointer uppercase lg:h-16 w-screen lg:w-auto"
               to="home"
               spy={true}
               smooth={true}
@@ -65,7 +65,7 @@ const Header = () => {
               <Link
                 onClick={() => setOpen(!open)}
                 activeClass="text-[#fff] border-b-2 border-green-500 bg-gray-900"
-                className="hover:text-white hover:bg-gray-900 text-green-500 cursor-pointer uppercase overflow-hidden hover:border-b-2 px-2 border-green-500 lg:h-16 flex items-center  w-screen md:w-auto"
+                className="hover:text-white hover:bg-gray-900 text-green-500 cursor-pointer uppercase overflow-hidden hover:border-b-2 px-2 border-green-500 lg:h-16 flex items-center  w-screen lg:w-auto"
                 to={nav.link}
                 spy={true}
                 smooth={true}
