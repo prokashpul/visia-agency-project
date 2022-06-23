@@ -39,15 +39,15 @@ const Header = () => {
 
         <ul
           onClick={() => setOpen(!open)}
-          className={`flex  flex-col lg:flex-row items-start lg:items-center px-5 lg:px-0  lg:gap-5 absolute lg:static bg-black overflow-y-scroll lg:overflow-hidden lg:bg-transparent top-16  lg:top-auto w-3/4 lg:w-auto duration-700  lg:right-auto h-screen lg:h-auto lg:py-0 ${
+          className={`flex  flex-col lg:flex-row items-start lg:items-center px-5 lg:px-0  lg:gap-0 absolute lg:static bg-black overflow-y-scroll lg:overflow-hidden lg:bg-transparent top-16  lg:top-auto w-3/4 lg:w-auto duration-700  lg:right-auto h-screen lg:h-auto lg:py-0 ${
             open ? "right-0" : "-right-[100%]"
           } `}
         >
           <li className="duration-500 flex items-center py-3 lg:py-auto w-full lg:w-auto">
             <Link
               onClick={() => setOpen(!open)}
-              activeClass="text-[#fff]"
-              className="hover:text-white text-green-500 cursor-pointer uppercase"
+              activeClass="text-[#fff] border-b-2 border-green-500 bg-gray-900"
+              className="hover:text-white hover:bg-slate-900 px-2 flex items-center hover:border-b-2 border-green-500 text-green-500 cursor-pointer uppercase lg:h-16 w-screen md:w-auto"
               to="home"
               spy={true}
               smooth={true}
@@ -60,12 +60,12 @@ const Header = () => {
           {navBar?.map((nav) => (
             <li
               key={nav.id}
-              className="duration-500 flex items-center py-3 lg:py-auto"
+              className="duration-500 flex items-center py-3 lg:py-auto w-full lg:w-auto"
             >
               <Link
                 onClick={() => setOpen(!open)}
-                activeClass="text-[#fff]"
-                className="hover:text-white text-green-500 cursor-pointer uppercase overflow-hidden"
+                activeClass="text-[#fff] border-b-2 border-green-500 bg-gray-900"
+                className="hover:text-white hover:bg-gray-900 text-green-500 cursor-pointer uppercase overflow-hidden hover:border-b-2 px-2 border-green-500 lg:h-16 flex items-center  w-screen md:w-auto"
                 to={nav.link}
                 spy={true}
                 smooth={true}

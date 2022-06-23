@@ -59,7 +59,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="border-2 border-fuchsia-50 h-9 mb-5"></div>
+      <div className="border-2 border-green-500 h-9 mb-5"></div>
       <p>
         © Copyright by <span className="text-green-500"> virtual Agency</span>{" "}
       </p>
