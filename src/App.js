@@ -6,6 +6,7 @@ import Error from "./pages/error/Error";
 import Home from "./pages/Home/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 function App() {
   useEffect(() => {
     AOS.init();
